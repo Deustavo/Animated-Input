@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/button.css">
+    <!-- <link rel="import" href="component.html"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Animation</title>
+</head>
+    <body>
+        <div class="backgorund">
+            <input class="input" onkeyup="this.setAttribute('value', this.value);" value="" id="input-text" onchange="changeValue()">
+            <label class="label-input" for="input-text">
+                <div class="title-backgorund">
+                    <p class="title" id="title">Nome Completo</p>
+                </div>
+                <div class="input-backgorund">
+                    <div class="limit-placeholder">
+                        <p class="placeholder">Nome Completo</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+        <script src="js/verifyInputLength.js"></script>
+    </body>
+</html>
